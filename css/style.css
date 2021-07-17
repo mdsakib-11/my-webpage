@@ -69,8 +69,6 @@ div#home {
     height: 350px;
     margin-top: 32px;
 }
-
-
 h1.title-home {
     font-size: 40px;
     font-weight: 300;
@@ -124,4 +122,134 @@ a#homeBtn {
 .right-text span>i {
     font-size: 20px;
     margin-right: 7px;
+}
+/* Top Section Ended!! */
+/* About Section Started */
+.aboutme-wrapper {
+    background: #FFFFFF;
+}
+
+.heading-box {
+    width: 930px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.heading-box p {
+    padding: 5px 10px;
+    background: #F5DF4E;
+    width: 106px;
+    margin: auto;
+    font-weight: 400;
+}
+
+.heading-box h1 {
+    font-size: 2.50rem;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.heading-box {
+    width: 930px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.heading-box p {
+    padding: 5px 10px;
+    background: #F5DF4E;
+    width: 106px;
+    margin: auto;
+    font-weight: 400;
+}
+
+.heading-box h1 {
+    font-size: 2.50rem;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.about-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-desc {
+    width: 695px;
+}
+
+.about-year {
+    width: 400px;
+    margin-left: 78px;
+}
+
+.about-desc span {
+    font-size: 32px;
+}
+
+.about-desc h1 {
+    font-size: 32px;
+    display: inline;
+    margin-left: 8px;
+}
+
+.border-yellow {
+    width: 240px !important;
+    height: 3px;
+    background: #F5DF4E;
+    position: relative;
+    left: 102px;
+}
+
+.about-desc p {
+    width: 552px;
+    line-height: 35px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.about-year p {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #F5DF4E;
+    margin: auto;
+    margin-top: 16px;
+    display: grid;
+}
+
+.about-year p span {
+    font-size: 135px;
+    color: #4c4d4d;
+    margin: -42px;
+    text-align: center;
+}
+
+.about-year h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.about-year h3>span {
+    font-weight: 600;
+}
+
+.about-sector {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 20px);
+    margin-top: 30px;
+    font-size: 1.2rem;
+    grid-gap:30px;
+}
+.about-sector div>h4 {
+    color: #343a40;
+    font-weight: 600;
 }

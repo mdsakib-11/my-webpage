@@ -291,3 +291,116 @@ a#homeBtn {
     margin-bottom: 12px;
     font-weight: 600 !important;
 }
+/* Service Section Ended!! */
+/* My Resume Section Started */
+#my-main-resume {
+    background: #FFFFFF;
+}
+
+.resume-wrapper {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+.my-education h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.my-education {
+    padding: 10px 8px;
+}
+
+.my-experiance {
+    padding: 10px 6px;
+}
+
+.resume-single-box h2 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.resume-single-box {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 34px;
+}
+
+.resume-single-box p {
+    margin-bottom: 34px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6c757d;
+    line-height: 1.85;
+}
+.resume-single-box h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.experiance-wrapper {
+    border-left: 2px solid #F5DF4E;
+    padding-left: 18px;
+}
+
+/* My Skills Section Started */
+
+.single-progress {
+    width: 450px;
+    margin-bottom: 24px;
+}
+
+.single-progress p {
+    display: inline;margin-right: 318px;
+}
+
+.progress {
+    width: 450px;
+    height: 0.5rem;
+    background: #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.progress p {
+    background: #F5DF4E;
+    width: 65%;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.my-skills h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.progress-bar-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 50px;
+}
+
+.button-wrapper {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.button-wrapper a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px 46px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212529;
+}
+.button-wrapper:hover a{
+    background-color: black;
+    color: white;
+    transition: .6s;
+}

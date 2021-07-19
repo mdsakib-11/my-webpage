@@ -1,19 +1,27 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background: #dddddd;
     font-family: "Poppins", sans-serif;
 }
-#main-wrapper{
+
+#main-wrapper {
     background: #f5df4e;
 }
 
@@ -23,6 +31,7 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .logo_wrapper img {
     width: 120px;
 }
@@ -51,6 +60,7 @@ body{
     position: relative;
     top: -3px;
 }
+
 .leftHome {
     width: 400px;
     float: left;
@@ -69,6 +79,7 @@ div#home {
     height: 350px;
     margin-top: 32px;
 }
+
 h1.title-home {
     font-size: 40px;
     font-weight: 300;
@@ -107,7 +118,7 @@ a#homeBtn {
     padding: 20px 34px;
 }
 
-#homeBtn2:hover{
+#homeBtn2:hover {
     text-decoration: underline;
 }
 
@@ -123,6 +134,7 @@ a#homeBtn {
     font-size: 20px;
     margin-right: 7px;
 }
+
 /* Top Section Ended!! */
 /* About Section Started */
 .aboutme-wrapper {
@@ -247,15 +259,17 @@ a#homeBtn {
     grid-template-rows: repeat(4, 20px);
     margin-top: 30px;
     font-size: 1.2rem;
-    grid-gap:30px;
+    grid-gap: 30px;
 }
+
 .about-sector div>h4 {
     color: #343a40;
     font-weight: 600;
 }
+
 /* Section Ended!! */
 /* Service Section Started */
-#main-service{
+#main-service {
     background: #F8F9FA;
     padding-bottom: 80px;
 }
@@ -269,8 +283,9 @@ a#homeBtn {
     grid-column-gap: 150px;
     margin-top: 76px;
     justify-content: center;
-    margin-right:38px;
+    margin-right: 38px;
 }
+
 .single-box i {
     font-size: 50px;
     color: #F5DF4E;
@@ -287,10 +302,11 @@ a#homeBtn {
     line-height: 28px;
 }
 
-.single-box h2{
+.single-box h2 {
     margin-bottom: 12px;
     font-weight: 600 !important;
 }
+
 /* Service Section Ended!! */
 /* My Resume Section Started */
 #my-main-resume {
@@ -308,6 +324,7 @@ a#homeBtn {
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .my-education {
     padding: 10px 8px;
 }
@@ -334,11 +351,13 @@ a#homeBtn {
     color: #6c757d;
     line-height: 1.85;
 }
+
 .resume-single-box h4 {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 8px;
 }
+
 .experiance-wrapper {
     border-left: 2px solid #F5DF4E;
     padding-left: 18px;
@@ -352,7 +371,8 @@ a#homeBtn {
 }
 
 .single-progress p {
-    display: inline;margin-right: 318px;
+    display: inline;
+    margin-right: 318px;
 }
 
 .progress {
@@ -399,8 +419,132 @@ a#homeBtn {
     font-weight: 500;
     color: #212529;
 }
-.button-wrapper:hover a{
+
+.button-wrapper:hover a {
     background-color: black;
     color: white;
     transition: .6s;
+}
+
+/* My Resume Section End!! */
+/* My-Protfolio Section Started */
+#protfolio-wrapper {
+    background: #F8F9FA;
+}
+
+.protfolio-menu {
+    padding: 30px 0px;
+    margin-bottom: 2.4rem;
+}
+
+ul.p-menus {
+    text-align: center;
+}
+
+ul.p-menus li {
+    display: inline-block;
+    padding: 0px 14px;
+    position: relative;
+}
+
+ul.p-menus>li>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+}
+
+ul.p-menus li:first-child a {
+    color: #0c2f55;
+}
+
+a.active-b-bottom:after {
+    content: ' ';
+    width: 100%;
+    height: 3px;
+    background: #F5DF4E;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
+
+/* Protfolio Section Started */
+.single-protfolio {
+    display: flex;
+    width: 300px;
+}
+
+.protfolio-details>img {
+    width: 100%;
+}
+
+.single-protfolio {
+    display: flex;
+    width: 290px;
+    margin-left: 20px;
+    margin-bottom: 28px;
+}
+
+.protfolio-details>img {
+    width: 100%;
+    height: 100%
+}
+
+.protfolio-overly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    display: flex;
+    right: 0;
+    text-align: center;
+    line-height: 38px;
+    opacity: 0;
+}
+
+.single-protfolio:hover .protfolio-overly {
+    opacity: 1;
+    transition: all 1s;
+
+}
+
+.single-protfolio:hover .protfolio-details>img {
+    transform: scale(1.4);
+    transition: 1s;
+}
+
+.protfolio-details {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.protfolio-overlay-deatil {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.protfolio-overlay-deatil>p>i {
+    font-size: 45px;
+    color: #F5DF4E;
+    margin-bottom: 18px;
+}
+
+.protfolio-overlay-deatil>h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.protfolio-overlay-deatil span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #dee3e4 !important;
+}
+
+.protfolio-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -451,6 +451,12 @@ ul.p-menus>li>a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.4);
     font-size: 17px;
+    font-weight: 600;
+}
+
+.p-menus>li:hover a{
+    color: #F5DF4E;
+    transition: .3s;
 }
 
 ul.p-menus li:first-child a {

@@ -69,7 +69,7 @@ body {
 
 div#home {
     overflow: hidden;
-    padding-bottom: 204px;
+    padding-bottom: 285px;
     padding-top: 55px;
 }
 
@@ -83,11 +83,14 @@ div#home {
 h1.title-home {
     font-size: 40px;
     font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
 h2.title-homeTwo {
     font-size: 75px;
     margin-top: -16px;
+    text-transform: uppercase;
 }
 
 .leftHome p {
@@ -430,6 +433,7 @@ a#homeBtn {
 /* My-Protfolio Section Started */
 #protfolio-wrapper {
     background: #F8F9FA;
+    padding-bottom: 80px;
 }
 
 .protfolio-menu {
@@ -554,3 +558,216 @@ a.active-b-bottom:after {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+/* Protfolio Section Ended!! */
+/* Hero Section Started */
+#hero-wrap{
+    height: 455px;
+}
+.background-image{
+    background: linear-gradient(#000000b0, #000000bd),url(../image/intro-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center 1.375px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content-wrapper {
+    text-align: center;
+}
+
+.content-wrapper h2 {
+    font-size: 2.50rem;
+    font-weight: 600;
+    color: #F5DF4E;
+    margin-bottom: 60px;
+}
+
+.content-wrapper a {
+    text-decoration: none;
+    padding: 0.8rem 2.6rem;
+    background: #F3D92C;
+    color: #212529;
+    font-weight: 500;
+}
+/* Hero Section Ended!! */
+/* Faq Section Started */
+section#main-faq {
+    background: #F8F9FA;
+    padding: 65px 0px;
+}
+
+.faq-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq-detail {
+    width: 50%;
+    padding: 0px 20px;
+}
+.faq-image {
+    width: 50%;
+    padding: 5px;
+}
+
+.faq-detail>p {
+    color: #343a40;
+    background: #f5df4e;
+    display: inline;
+    padding: 0px .5rem;
+}
+
+.faq-detail>h2 {
+    font-weight: 600;
+    font-size: 2.50rem;
+    margin-top: 8px;
+}
+
+.accordian-wrapper .single-accordian>a,i {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.single-accordian>i {
+    position: relative;
+    left: -5px;
+    top: 1px;
+}
+
+.single-accordian>i,a {
+    font-size: 1.125rem;
+}
+
+.accordian-wrapper {
+    padding: 12px 20px;
+}
+.accordian-wrapper {
+    margin-top: 39px;
+}
+
+.single-accordian {
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-top: 0.5px solid #ddd;
+}
+
+.accordian-wrapper .single-accordian:first-child {
+    border: none;
+}
+/* Faq Section Ended!! */
+/* Testimonial Section Started */
+
+section#main-testimonial-wrapper {
+    background: #939597;
+}
+.box-two-p>p {
+    padding: 2px 8px;
+    display: initial;
+    color: #343a40!important;
+    font-weight: 400;
+}
+
+.single-testimonial {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.single-testimonial-details {
+    padding-top: 36px;
+}
+.single-testimonial>i{
+    font-size: 40px;
+    color: #f5df4e !important;
+    margin-bottom: 18px;
+}
+.single-testimonial-box>i {
+    font-size: 40px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    color: #C6C7C8;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.single-testimonial-box>.single-detail>p {
+    line-height: 30px;
+    font-size: 1.3125rem;
+    color: #fff;
+    font-weight: 400;
+}
+.box-two-p>h1 {
+    color: #fff;
+}
+.single-testimonial-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 77px;
+}
+.testimonial-sections-wrapper {
+    width: 100%;
+    margin-bottom: 62px;
+}
+.client {
+    width: 55px;
+    height: 55px;
+    display: grid;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    left: 48%;
+    top: 12px;
+}
+.client-wrapper {
+    position: relative;
+}
+.client-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.client-detail {
+    position: relative;
+    top: 76px;
+    left: 15px;
+    margin-bottom: 22px;
+}
+.client>img {
+    width: 100%;
+    border-radius: 100%;
+}
+.client-detail>p {
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.client-detail>span {
+    color: #dee3e4 !important;
+    font-weight: 400;
+}
+.dot-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: -22px;
+    padding-top: 25px;
+}
+
+.single-dot {
+    width: 10px;
+    height: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+    background: #c5bdbd;
+    margin-right: 10px;
+    margin-left: 14px;
+}
+/* Testimonial Section Ended!! */

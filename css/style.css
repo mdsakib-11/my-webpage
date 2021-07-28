@@ -109,10 +109,6 @@ a#homeBtn {
     font-weight: 500;
     position: relative;
     top: 47px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 #homeBtn2 {
@@ -135,10 +131,6 @@ a#homeBtn {
     display: grid;
     border-radius: 100%;
     border: 16px solid white;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .right-text span>i {
@@ -244,10 +236,6 @@ a#homeBtn {
     margin: auto;
     margin-top: 16px;
     display: grid;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .about-year p span {
@@ -396,10 +384,6 @@ a#homeBtn {
     background: #ddd;
     margin-top: 10px;
     border-radius: 5px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .progress p {
@@ -408,10 +392,6 @@ a#homeBtn {
     height: 100%;
     border-radius: 5px;
     display: block;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .my-skills h1 {
@@ -482,7 +462,7 @@ ul.p-menus>li>a {
     font-weight: 600;
 }
 
-.p-menus>li:hover a{
+.p-menus>li:hover a {
     color: #F5DF4E;
     transition: .3s;
     -webkit-transition: .3s;
@@ -593,13 +573,15 @@ a.active-b-bottom:after {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 /* Protfolio Section Ended!! */
 /* Hero Section Started */
-#hero-wrap{
+#hero-wrap {
     height: 455px;
 }
-.background-image{
-    background: linear-gradient(#000000b0, #000000bd),url(../image/intro-bg-2.jpg);
+
+.background-image {
+    background: linear-gradient(#000000b0, #000000bd), url(../image/intro-bg-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -627,6 +609,7 @@ a.active-b-bottom:after {
     color: #212529;
     font-weight: 500;
 }
+
 /* Hero Section Ended!! */
 /* Faq Section Started */
 section#main-faq {
@@ -643,6 +626,7 @@ section#main-faq {
     width: 50%;
     padding: 0px 20px;
 }
+
 .faq-image {
     width: 50%;
     padding: 5px;
@@ -661,7 +645,8 @@ section#main-faq {
     margin-top: 8px;
 }
 
-.accordian-wrapper .single-accordian>a,i {
+.accordian-wrapper .single-accordian>a,
+i {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.4);
 }
@@ -672,13 +657,15 @@ section#main-faq {
     top: 1px;
 }
 
-.single-accordian>i,a {
+.single-accordian>i,
+a {
     font-size: 1.125rem;
 }
 
 .accordian-wrapper {
     padding: 12px 20px;
 }
+
 .accordian-wrapper {
     margin-top: 39px;
 }
@@ -694,16 +681,18 @@ section#main-faq {
 .accordian-wrapper .single-accordian:first-child {
     border: none;
 }
+
 /* Faq Section Ended!! */
 /* Testimonial Section Started */
 
 section#main-testimonial-wrapper {
     background: #939597;
 }
+
 .box-two-p>p {
     padding: 2px 8px;
     display: initial;
-    color: #343a40!important;
+    color: #343a40 !important;
     font-weight: 400;
 }
 
@@ -717,11 +706,13 @@ section#main-testimonial-wrapper {
 .single-testimonial-details {
     padding-top: 36px;
 }
-.single-testimonial>i{
+
+.single-testimonial>i {
     font-size: 40px;
     color: #f5df4e !important;
     margin-bottom: 18px;
 }
+
 .single-testimonial-box>i {
     font-size: 40px;
     margin-bottom: 18px;
@@ -738,18 +729,22 @@ section#main-testimonial-wrapper {
     color: #fff;
     font-weight: 400;
 }
+
 .box-two-p>h1 {
     color: #fff;
 }
+
 .single-testimonial-box {
     display: flex;
     flex-direction: row;
     margin-bottom: 77px;
 }
+
 .testimonial-sections-wrapper {
     width: 100%;
     margin-bottom: 62px;
 }
+
 .client {
     width: 55px;
     height: 55px;
@@ -759,14 +754,12 @@ section#main-testimonial-wrapper {
     position: absolute;
     left: 48%;
     top: 12px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
+
 .client-wrapper {
     position: relative;
 }
+
 .client-wrapper {
     position: relative;
     width: 100%;
@@ -778,23 +771,24 @@ section#main-testimonial-wrapper {
     left: 15px;
     margin-bottom: 22px;
 }
+
 .client>img {
     width: 100%;
     border-radius: 100%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+
 }
+
 .client-detail>p {
-    color: #fff!important;
+    color: #fff !important;
     font-weight: 600;
     font-size: 1rem;
 }
+
 .client-detail>span {
     color: #dee3e4 !important;
     font-weight: 400;
 }
+
 .dot-wrapper {
     display: flex;
     justify-content: center;
@@ -813,6 +807,7 @@ section#main-testimonial-wrapper {
     margin-right: 10px;
     margin-left: 14px;
 }
+
 /* Testimonial Section Ended!! */
 /* Footer Section Started */
 .footer-details-wrapper {
@@ -832,6 +827,7 @@ section#main-testimonial-wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 .left-deatil {
     width: 40%;
 }
@@ -840,6 +836,7 @@ section#main-testimonial-wrapper {
     width: 60%;
     margin-left: 116px;
 }
+
 .footer-desc p {
     font-size: 21px;
     line-height: 1.8;
@@ -848,21 +845,25 @@ section#main-testimonial-wrapper {
     margin-bottom: 46px;
     width: 370px;
 }
+
 .footer-desc h3 {
     font-size: 21px;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
+
 .footer-desc>address {
     font-size: 18px;
     font-style: normal;
     margin-bottom: 1rem;
 }
+
 .footer-desc>p:last-child {
     font-size: 18px;
     line-height: 1.8;
     font-weight: 400;
 }
+
 .footer-social-icons>i {
     color: #4d555a;
     margin-top: 30px;
@@ -883,6 +884,7 @@ section#main-testimonial-wrapper {
     border-bottom: 2px solid rgba(0, 0, 0, 0.12);
     font-size: 26px;
 }
+
 .single-input>label {
     font-size: 1rem;
     font-weight: 400;
@@ -890,13 +892,16 @@ section#main-testimonial-wrapper {
     margin-bottom: 12px;
     display: block;
 }
+
 .single-input {
     margin-bottom: 24px;
 }
+
 .footer-heading {
     width: 452px;
     line-height: 52px;
 }
+
 .single-input>textarea {
     width: 100%;
     background: #F5DF4E;
@@ -924,12 +929,13 @@ section#main-testimonial-wrapper {
     cursor: pointer;
     box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
 }
+
 .submit-form-btn {
     position: relative;
     top: 35px;
 }
 
-.footer-social-icons>i:first-child:hover{
+.footer-social-icons>i:first-child:hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: .3s;
@@ -944,7 +950,7 @@ section#main-testimonial-wrapper {
     -o-transition: .3s;
 }
 
-.footer-social-icons>i:nth-child(2):hover{
+.footer-social-icons>i:nth-child(2):hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: .3s;
@@ -958,7 +964,8 @@ section#main-testimonial-wrapper {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
-.footer-social-icons>i:nth-child(3):hover{
+
+.footer-social-icons>i:nth-child(3):hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: .3s;
@@ -973,7 +980,7 @@ section#main-testimonial-wrapper {
     -o-transition: .3s;
 }
 
-.footer-social-icons>i:nth-child(4):hover{
+.footer-social-icons>i:nth-child(4):hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: .3s;
@@ -988,7 +995,7 @@ section#main-testimonial-wrapper {
     -o-transition: .3s;
 }
 
-.footer-social-icons>i:nth-child(5):hover{
+.footer-social-icons>i:nth-child(5):hover {
     cursor: pointer;
     transform: scale(1.5);
     transition: .3s;
@@ -1002,11 +1009,13 @@ section#main-testimonial-wrapper {
     -ms-transition: .3s;
     -o-transition: .3s;
 }
+
 .copyright-section {
     background: #111418;
     padding-top: 26px;
     padding-bottom: 26px;
 }
+
 .copyright-wrapper {
     display: flex;
 }
@@ -1028,7 +1037,8 @@ section#main-testimonial-wrapper {
     text-decoration: none;
     color: #F5DF4E;
 }
-.admin-designer>p>a:hover{
+
+.admin-designer>p>a:hover {
     text-decoration: underline;
     transition: .2s;
     -webkit-transition: .2s;
@@ -1036,7 +1046,8 @@ section#main-testimonial-wrapper {
     -ms-transition: .2s;
     -o-transition: .2s;
 }
-.copyright-left>p>a:hover{
+
+.copyright-left>p>a:hover {
     text-decoration: underline;
     transition: .2s;
     -webkit-transition: .2s;
@@ -1044,6 +1055,7 @@ section#main-testimonial-wrapper {
     -ms-transition: .2s;
     -o-transition: .2s;
 }
+
 .copyright-left>p>a {
     text-decoration: none;
     color: #F5DF4E;
